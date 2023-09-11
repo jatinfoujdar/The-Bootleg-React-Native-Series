@@ -16,15 +16,20 @@ const styles = StyleSheet.create({
     container :{
         flex: 1,
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
+        backgroundColor: "#f5f5dc"
+       
     },
-    whiteText:{
-        color: "#FFFFFF"
+    whiteText: {
+        color: "#FFFFFF",
+        fontSize: 20,
+        fontWeight: 'bold',
     },
-    darkText:{
+    darkText: {
         color: "#000000",
-        
-    }
+        fontSize: 20,
+        fontWeight: 'bold',
+    },
 })
 
 
