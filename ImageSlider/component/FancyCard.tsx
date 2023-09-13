@@ -18,13 +18,39 @@ export default function FancyCard() {
 }
 
 const styles = StyleSheet.create({
-    headingText:{},
-    card:{},
-    cardElevated:{padding: 8,},
+    headingText:{
+        fontSize: 24,
+        fontWeight: 'bold',
+        color: "black",
+        paddingHorizontal: 8
+    },
+    card:{
+        width: 350,
+        height: 360,
+        borderRadius: 6, 
+        marginVertical: 12,
+        marginHorizontal: 16
+    },
+    cardElevated:{
+        padding: 8,
+        backgroundColor: "#23C4ED" ,
+        elevation: 3,
+        shadowOffset:{
+            width:1,
+            height:1,
+        }   
+    },
     cardImages:{
         height: 180,
+        marginBottom: 8,
+        borderTopLeftRadius: 6,
+        borderBottomRightRadius: 6
     },
-    cardBody:{},
+    cardBody:{
+        flex:1,
+        flexGrow: 1,
+        paddingHorizontal: 12,
+    },
     cardTitle:{
         fontSize: 20,
         color: "black",
