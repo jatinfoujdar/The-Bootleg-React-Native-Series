@@ -4,6 +4,7 @@ import FlatCards from "./component/FlatCards";
 import CrouselCards from "./component/CrouselCards"
 import FancyCard from "./component/FancyCard";
 import ActionCards from "./component/ActionCards";
+import ContactList from "./component/ContactList";
 
 
 const App = ()=>{
@@ -14,7 +15,7 @@ const App = ()=>{
       <CrouselCards/>
       <FancyCard/>
       <ActionCards/>
-   
+      <ContactList/>
      </ScrollView>
     
     </SafeAreaView>
