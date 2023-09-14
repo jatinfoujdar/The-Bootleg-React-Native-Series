@@ -1,5 +1,5 @@
 import React from "react";
-import {SafeAreaView, ScrollView, Text, View} from "react-native";
+import {SafeAreaView, ScrollView} from "react-native";
 import FlatCards from "./component/FlatCards";
 import CrouselCards from "./component/CrouselCards"
 import FancyCard from "./component/FancyCard";
