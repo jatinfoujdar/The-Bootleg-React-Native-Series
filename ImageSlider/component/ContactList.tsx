@@ -41,7 +41,6 @@ export default function ContactList() {
              <Text style={styles.userName}>{name}</Text>
              <Text style={styles.userStatus}>{status}</Text>
              </View>
-
         </View>
     ))}
       </ScrollView>
@@ -64,7 +63,10 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         alignItems: "center",
-        marginBottom:4
+        marginBottom:4,
+        backgroundColor: "#51E1ED",
+        padding: 8,
+        borderRadius: 15
     },
     userImage:{ 
         width: 60,
