@@ -20,7 +20,11 @@ export default function App() {
   const [symbols, useSymbols] = useState(false);
 
   const generatePasswordString = (passwordLength: number)=>{
-
+    
+    const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    const lowerCaseChars = 'abcdefghijklmnopqrstuvwxyz';
+    const digitChars = '0123456789';
+    const specialChars = '!@#$%^&*()_+';
   }
 
   const createPassword = (characters: string, passwordLength:number)=>{
