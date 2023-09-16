@@ -10,6 +10,7 @@ export default function Navbar() {
         <Text style={styles.navText}>Whatsapp</Text>
         <Ionicons name="search" color="black" size={24} />
       </View>
+      <View style={styles.line} />
     </SafeAreaView>
   );
 }
@@ -25,5 +26,10 @@ const styles = StyleSheet.create({
   navText: {
     color: 'black',
     fontSize: 28,
+  },
+  line: {
+    marginTop: 6,
+    borderBottomWidth: 3,
+    borderBottomColor: 'gray',
   },
 });
